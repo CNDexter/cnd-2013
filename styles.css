@@ -1,0 +1,431 @@
+/***  Body  ***/
+/*background: #76afba; turquoise */
+/*background: #00A7BA; vibrant green/blue */
+/*background:#895F9F; purple*/
+/*background:#004154; dark accent blue*/
+/*background:#7b3688; logo purple*/
+
+html {
+    height: 100%;
+}
+
+body {
+	background: #C0C685; 
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 160%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%; /*for IE*/
+    padding-bottom: 3%;
+}
+
+#header {
+    background: #FFF;
+    box-shadow: 0 0 7px 5px rgba(100, 100, 100, 0.2);
+    color: #CCC;
+    left: 0px;
+    padding: 8px;
+    position: fixed;
+    top: 0px; 
+    width: 100%;
+}
+
+#header_logo {
+    float: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+#header_nav {
+    float: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+#header_nav ul li, #container_nav ul li {
+    display: inline;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#container_nav ul {
+    margin: 0px;
+}
+
+#container {
+    background: #FFF;
+    box-shadow: 0 0 7px 5px rgba(100, 100, 100, 0.2);
+    border: 0px solid #424142;
+    margin: 5% auto 0%;
+    padding: 15px;
+    width: 80%;
+    max-width: 700px;
+}
+
+#container_logo {
+    background: url('images/logo/CNDlogo.jpg') no-repeat center;
+    background-size: contain;
+    height: 90px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#container_nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#about_content, #work_content, #contact_content {
+    padding: 15px;
+}
+
+#content_skills {
+    padding-top: 17px;
+}
+
+#content_skills li {
+    text-align: center;
+}
+
+#content_contact {
+    padding: 1% 3%;
+}
+
+#footer {
+    font-size: 11px;
+    text-align: right;
+}
+
+/***  Classes  ***/
+
+.about {
+    background: none repeat scroll 0 0 #C0C685;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.work {
+    background: none repeat scroll 0 0 #00A7BA;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.work_examples {
+    padding-top: 17px;
+}
+
+.work_examples li {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.work_examples img {
+    border: 1px solid #FFF;
+    box-shadow: 0 0 7px 1px rgba(100, 100, 100, 0.2);
+    height: auto;
+    max-height: 150px;
+    max-width: 250px;
+    width: 100%;
+}
+
+.work_examples img:hover {
+    box-shadow: 0 0 7px 1px rgba(100, 100, 100, 0.7);
+}
+
+.contact {
+    background: none repeat scroll 0 0 #895F9F;
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.h3 {
+    color: #A9A9A9;
+    font-family: 'Lato', sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 5px 0px;
+}
+
+.halves {
+    float: left;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 49%;
+}
+
+.thirds {
+    float: left;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 33%;
+}
+
+.menuright {
+    padding-right: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}  
+
+.clearfix {
+    display: block;
+}  
+       
+html[xmlns] .clearfix {
+    display: block;
+}  
+
+* html .clearfix {
+    height: 1%;
+}
+    
+/***  Styles  ***/
+
+img {
+    border: 0 none;
+}
+
+h1 {  
+    margin: 0 auto;
+    text-indent: -9999px;
+    height: 0px;
+}
+    
+h2 {
+	color: #7b3688;
+    font-family: 'Lato', sans-serif;
+	font-size: 20px;
+    font-weight: normal;
+    margin: 0px 0px 15px 0px;
+	text-align: center;
+}
+
+h3 {
+    color: #A9A9A9;
+    font-family: 'Lato', sans-serif;
+	font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 5px 0px;
+	text-align: center;
+}
+
+ul {
+    list-style: none outside none;
+    padding-left: 0px;
+}
+
+li {
+    color: #A9A9A9;
+}
+
+a:link, a:visited {
+    color: #00A7BA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #753281;
+    text-decoration: underline;
+}
+
+#header_nav a:link, #header_nav a:visited, #container_nav a:link, #container_nav a:visited {
+    color: #C0C685;
+    text-decoration: none;
+}
+
+#header_nav a:hover, #container_nav a:hover {
+    color: #753281;
+    text-decoration: underline;
+}
+
+hr { 
+    border: 0; 
+    height: 1px;
+	margin: 60px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(100, 100, 100, 0.2), rgba(0,0,0,0)); 
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(100, 100, 100, 0.2), rgba(0,0,0,0)); 
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(100, 100, 100, 0.2), rgba(0,0,0,0)); /* IE 10*/
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(100, 100, 100, 0.2), rgba(0,0,0,0));
+}
+
+/***  Form  ***/
+input, textarea {
+    box-shadow: inset 1px 1px 1px 0px rgba(100, 100, 100, 0.2);
+    overflow: auto;
+    padding: 5px;
+    border: 1px solid #A9A9A9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 215px;
+    margin: 0px;
+}
+
+#submit {
+    box-shadow: 1px 1px 1px 0px rgba(100, 100, 100, 0.2);
+    width: auto;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #00A7BA;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.submit:active {
+    background-color: #A9A9A9;
+}
+
+/***  Modal  ***/
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog h2 {
+    margin: 0 0 30px;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 45%;
+    max-width: 550px;
+/*	position: relative; */
+	margin: 5% auto;
+	padding: 20px;
+	border-radius: 5px;
+	background: #fff;
+    height: auto;
+    max-height: 450px;
+    overflow: auto;
+}
+
+.modalDialog img {
+    max-width: 600px;   
+    width: 100%; 
+}   
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 30%;
+	text-align: center;
+	top: auto;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.iefiximg, .iefiximg img {
+    text-align: center;
+    margin: 0px auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+/***  Responsive  ***/
+@media only screen and (max-width: 750px) {
+    .halves {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 550px) {
+#header_logo {
+    display: none;
+	float: none;
+    text-align: center;
+}
+
+#header_nav {
+	float: none;
+    text-align: center;
+}
+
+#container_logo {
+    background: url('images/logo/CNDlogo-sm.jpg') no-repeat center;
+    background-size: contain;
+    height: 120px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#container_nav {
+    display: block;
+    padding-top: 15px;
+}
+
+#content_written {
+    clear: both;
+    float: none;
+    width: auto;
+}
+
+.menuright {
+    padding-right: 20px;
+}
+
+input, textarea {
+    width: 180px;
+}
+
+.modalDialog > div {
+    width: 75%;
+}
+
+.close {
+    right: 20%;
+}
+
+}
+
+@media only screen and (max-width: 245px) {
+ul {
+    margin: 0;
+}
+#header_nav ul li, #container_nav ul li {
+    line-height: 30px;
+}
+input, textarea {
+    width: 125px;
+}
+}

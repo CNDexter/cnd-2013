@@ -1,0 +1,139 @@
+/***  Body  ***/
+
+html { 
+	height: 101%; 
+}
+
+body { 
+	background: #C0C67E; 
+	font-family: "Times New Roman";
+	font-size: .875em;
+	line-height: 130%;
+}
+
+#container {
+	background: #FFFFFF;
+	border-radius: 50px;
+	padding-bottom: 25px;
+	padding: 5%;
+}
+
+#header {
+	height: 100%;
+}
+
+#logo {
+	float: left;
+	/* width: 55%; -- removed width so responsive (below) works  */
+	padding-right: 2%;
+}
+
+#navigation {
+	float: right;
+	/* width: 40%; -- removed width so responsive (below) works */ 
+	text-align: center;
+}
+
+#topNav {
+	border: 2px solid #F9DE69;
+	border-radius: 10px 10px 0px 0px;
+	padding: 15px 20px;
+}
+
+#navIcons {
+	border: 0px solid white;
+	padding: 5px 0px;
+}
+
+#content {
+	border: 2px solid #F99669;
+	clear: both;
+	margin: 10px 0;
+	padding: 1% 2%;
+}
+
+#footerNav {
+	border: 2px solid #C53A01;
+	border-radius: 0px 0px 10px 10px;
+	height: 30px;
+	padding: 1% 2%;
+	text-align: center;
+}
+
+#footerCopy {
+	font-size: 0.850em;
+	margin: 10px 10px 0px 0px;
+	text-align: right;
+}	
+
+/***  Classes  ***/	
+.mainlink, .mainlink a {
+	color: #C53A01;
+	font-size: 1.250em;
+	font-family: 'Fjalla One', sans-serif;
+	line-height: 175%;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav {
+	clear: both;
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav li {
+	display: inline-block; /* http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/ */
+	padding: 2% 1%;
+	margin: 0px auto 0px auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.centerTxt {
+	text-align: center;
+}
+
+.centerImg {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: auto;
+	height: auto;
+}
+	
+/***  Styles  ***/	
+a, a:visited, a:active {
+	color: #C53A01;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	color: #874486;
+	font-size: 1.5em;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+	color: #874486;
+	font-size: 1.25em;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/*** Responsive ***/
+@media only screen and (max-width: 455px) {
+#navigation {
+	width: 100%;
+}
+}

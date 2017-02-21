@@ -1,0 +1,156 @@
+
+body 
+{	
+	background: #DFE1E5;	
+	margin: 0; 
+	padding: 0;	
+	text-align: center; 
+	font-size:14px;
+	font-family: Arial, sans-serif;
+}
+	
+body 
+{	
+	text-align:-moz-center;
+}
+
+#superContainer 
+{	
+	width: 700px;		
+	text-align:left;	
+	margin: 0 auto; 
+}
+
+#container {	width: 695px;  
+	background: #FFFFFF;	
+	margin: 0 auto; 
+	border: 3px double #8CC041;	
+	text-align:left;
+
+	}
+	
+#margintop {	margin-top: 15px;}
+
+#header {	
+	background: #FFFFFF;	
+	height:120px;	
+	padding: 0;
+	margin: 0;
+	border-bottom: 3px double #8CC041;
+}
+
+#header h1 {	margin: 0; 	
+padding: 10px 0; 
+}
+
+#mainContent {	
+background: #FFFFFF;	
+padding: 10px;	
+line-height: 18px;
+}
+
+#footer 
+{	
+text-align:center;	
+padding: 0 10px; 
+}
+
+#footer p 
+{	
+border-top-width: 1px;	
+border-top-style: solid;	
+border-top-color: #CCCCCC;	
+margin: 0; 	
+padding: 10px 0; 
+}
+
+#menu-up-1 
+{	width:685px;
+	height:7px;
+}
+
+#menu-up-3 
+{	
+	width:195px;	
+	height:83px;	
+	position: absolute;	
+	top:50px;	
+	text-align: center;
+}
+
+#menu-up-4 
+{	
+width:492px;	
+height:83px;	
+float: right;
+}
+
+#menu-up-6 {
+	width:492px;	
+	height:22px;		
+	left: 160px;	
+	float: right;
+	padding-bottom: 7px;
+}
+
+#bodyLeft {	width:150px;	height:auto;	position: absolute;	top: 169px;}
+#bodyRight {	width:460px;	height:auto;	position: relative;	left: 190px;}
+#clinLeft {	width:75px;	height:31px;}
+#clinRight {	width:595px;	height:31px;	float:right;}
+#legalLeft {	padding:5px 0px;	width:250px;}
+#legalRight {	padding:5px 0px;	width:300px;	text-align:right;	float: right;}
+.floatclear {	clear:both;}
+
+/* STYLES */
+a, a:hover, a:link {	color:#8CC041;	text-decoration: none;}a:hover {	text-decoration: underline;}
+h1 {	
+	font-size:15px;	
+	font-weight: normal;	
+	font-variant: normal;	
+	line-height: 20px;	
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #333333;
+}
+.greenphireA {	
+	color:#007045;
+}
+.greenphireB {	
+	color:#8CC041;
+}
+.style1 {
+	font-size: 12px;
+	color:#333333;
+}
+.style2 {	
+	color:#000000;
+}
+.bodyCopy {	
+	font-size:12px;	
+	font-weight: normal;	
+	font-variant: normal;	
+	line-height: 13px;	
+	font-family: Arial, Helvetica, sans-serif;	
+	color: #333333;
+}
+img { 	
+	border: 0px; 
+}
+.smallType {	
+	font-size:9px;	
+	font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

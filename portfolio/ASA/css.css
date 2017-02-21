@@ -1,0 +1,221 @@
+#logo
+{
+background-image: url(images/cornertransparent.gif);
+height: 322px;
+width: 328px;
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: 1;
+}
+
+#container
+{
+line-height: 130%;
+margin-left: auto;
+margin-right: 80px;
+margin-top: 100px;
+margin-bottom: auto;
+min-height: 300px;
+#padding-top: 100px;
+width: 745px;
+}
+
+#topnav
+{
+height: 20px;
+margin-left: 277px;
+position: relative;
+text-align: right;
+width: 450px;
+}
+
+#leftnav
+{
+height: 155px;
+margin-left: 25px;
+#right: 685px;
+position: absolute;
+text-align: right;
+top: 315px;
+#top: 335px;
+width: 120px;
+}
+
+#content
+{
+background-color: #F6F4E4;
+border: 1px solid black;
+font-size: 12px;
+min-height: 200px;
+height: auto;
+margin-left: 160px;
+padding: .5em .5em 1em .5em;
+position: relative;
+width: 570px;
+}
+
+#footer
+{
+background-color: #F6F4E4;
+border: 1px;
+border-color: #000;
+border-style: solid;
+bottom: 1px;
+clear: both;
+font-size: 12px;
+height: 25px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+width: 355px;
+}
+
+#footerp
+{
+position: absolute;
+bottom: 0;
+left: 90%;
+width: 100%;
+}
+
+#leftPan H2
+{
+padding-right: 0px;
+padding-left: 63px;
+font-weight: 24px;
+font-size: 24px;
+background: #f6f4e4;
+padding-bottom: 0px;
+width: 90px;
+color: #ad1129;
+line-height: 63px;
+padding-top: 0px;
+height: 63px;
+}
+
+#leftPan form
+{
+width:222px; 
+height:173px; 
+position:relative; 
+margin:0 auto; 
+background:url(images/formbg.gif) 0 0 no-repeat #F6F4E4; color:#fff;
+#background:url(images/formbg2.gif) 0 0 no-repeat #F6F4E4; color:#fff;
+}
+
+#leftPan form input
+{
+width:143px; 
+height:17px; 
+margin:3px 0 2px 35px; 
+}
+
+#leftPan form label
+{
+width:143px; 
+height:18px; 
+margin:2px 0 0 35px; 
+font:12px/15px Arial, Helvetica, sans-serif; 
+font-weight:bold;
+}
+
+#leftPan form input.button
+{
+width:51px; 
+height:17px; 
+float:left; background:url(images/button.gif) 0 0 no-repeat #FEFEFE; 
+color:#fff; font-size:12px; 
+font-weight:bold; 
+line-height:18px; 
+border:none; padding:0 10px 0 0;  
+margin:3px 10px 2px 28px; 
+}
+
+#leftPan form h2{width:150px; #height: 30px; height:47px; display:block; background:url(images/memberbg.gif) 0 0 no-repeat #D5D2BC; color:#fff; font-size:18px; line-height:47px; padding:0 0 0 65px;}
+#leftPan form #register{width:100px; height:24px; float:left; margin:3px 0 0; font-size:12px; font-family: Arial, Helvetica, sans-serif;}
+#leftPan form #register a{display:block; background: url(images/arrow4.gif) 100% 50% no-repeat #ABA894; color:#fff; font-size:14px; padding:0 5px 0 0; text-decoration:none;}
+#leftPan form #register a:hover{text-decoration:underline;}
+
+#contentp
+{
+padding: 1em;
+top:50%;
+left:50%;
+}
+
+A:link
+{ text-decoration: none; color:#000000; }
+A.page:link
+{ text-decoration: none; color:#F6F4E4; }
+A:visited
+{ text-decoration: none; color:#000000; }
+A.page:visited
+{ text-decoration: none; color:#F6F4E4; }
+A:active
+{ text-decoration: none; color:#000000; }
+A.page:active
+{ text-decoration: none; color:#F6F4E4; }
+A:hover
+{ text-decoration: none; color:#c82625; } 
+A.page:hover
+{ text-decoration: underline; color:#F6F4E4; }
+A:link img
+{ border-color: #000000; }
+A:hover img  
+{ border-color: #C82625; }
+
+#home .home, #about .about, #order .order
+{
+font-color:#c82625;
+}
+
+body
+{
+  background: #C62625;
+  background-attachment: scroll;
+  background-image: url(images/walltile.png);
+  font-family: tahoma, arial;
+  font-color: #000000;
+  font-size: 12px;
+}
+
+H1     
+{ 
+font-size: 14px;
+text-align: center;
+}
+
+hr 
+{
+border: 0;
+width: 80%;
+color: #C82625;
+background-color: #C82625;
+height: 1px;
+}
+
+table.sample2 
+{
+background-color: none;
+font-family: tahoma, arial;
+font-size: 12;
+cellpadding: 3; 
+cellspacing: 4; 
+border: 0;
+width: 500;
+text-align: left;
+}
+
+table.sample3 
+{
+border-width: 0px 0px 0px 0px;
+padding: 1px 1px 1px 1px;
+border-spacing: 0px;
+border-style: none none none none;
+border-color: gray gray gray gray;
+border-collapse: collapse;
+font-family: arial;
+color: #F6F4E4;
+font-size: 10px;
+}

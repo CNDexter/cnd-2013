@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+This is the XML from which the SWF file reads the following data:
+
+image - the thumb image in the menu.
+bigimage - the big image shown in Lightbox;  ignore it if you're not using Lightbox
+url - the address to go to when clicking the image
+target - _self - opens the url in the same browser page
+	 - _blank - opens the url in a new browser page
+	- a number - executes _root.gotoAndPlay(number); in Flash - available only in the commercial package
+lightboxInfo - the description for the bigimage;  ignore it if you're not using Lightbox
+
+The tooltip text is recorded as CDATA. You can use HTML tags like "<br>"
+-->
+<3DCarousel>
+	<photo image="images/cardsicon.jpg"><![CDATA[Custom Study Branded Debit Cards]]></photo>
+	<photo image="images/onlineicon.jpg"><![CDATA[Targeted Web Based Retention & Compliance Messaging]]></photo>
+	<photo image="images/phoneicon.jpg"><![CDATA[Custom Retention & Compliance Text Messaging]]></photo>
+	<photo image="images/graphicon.jpg"><![CDATA[Analytical Financial and Study Performance Reporting]]></photo>
+	<photo image="images/mailicon.jpg"><![CDATA[Reduces Loss to Follow Up]]></photo>
+</3DCarousel>
+
+<centered_photo image="images/patient.jpg"></centered_photo>

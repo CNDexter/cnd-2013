@@ -1,0 +1,36 @@
+/***   And because IE doesn't play well with others   ***/
+
+#header {
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(Color=#eeeeee, Strength=7, Direction=180);
+}
+
+#container, .work_examples img {
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(Color=#eeeeee, Strength=7, Direction=0),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#eeeeee, Strength=7, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#eeeeee, Strength=7, Direction=180),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#eeeeee, Strength=7, Direction=270);
+}
+
+.work_examples img:hover {
+    filter:
+        progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=7, Direction=0),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=7, Direction=90),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=7, Direction=180),
+        progid:DXImageTransform.Microsoft.Shadow(Color=#dddddd, Strength=7, Direction=270);
+}
+
+hr { 
+    color: #e2e2e2;
+    background-color: #e2e2e2;
+}
+
+/***   Modal   ***/
+.modalDialog {
+    display: none;
+}
+
+.modalDialog:target {
+    display: none;
+}

@@ -1,0 +1,86 @@
+#container
+{
+margin-left: auto;
+margin-right: auto;
+height: auto;
+width: 900px;
+}
+
+#top
+{
+padding: 0em;
+background-color: #ffffff;
+width: 889px;
+height: 152px;
+background-image: url(GGheader2wout.PNG);
+background-repeat: no-repeat; 
+margin-left: auto;
+margin-right: auto;
+clear: all;
+}
+
+#content
+{
+margin-left: auto;
+margin-right: auto;
+padding: 1em;
+max-width: 45em;
+#width: 566px;
+border: 1px;
+border-style: solid;
+border-color: #000000;
+}
+
+#menu
+{left:250px;position:relative;right:auto;top:114px;width:480px;z-index:1;}
+
+#bottomborder
+{	
+position: absolute;
+bottom: 2px;
+#bottom: 1px;
+left: 0px;
+width: 100%;
+height: 1.0em;
+background-color: none;
+text-align: center;
+}
+
+a:link
+{ text-decoration: none; color:#000000; }
+a:visited
+{ text-decoration: none; color:#000000; }
+a:active
+{ text-decoration: none; color:#000000; }
+a:hover
+{ text-decoration: none; color:#CC0000; }
+ 
+a:link img
+{ border: 1px solid #000000; }
+a:visited img
+{ border: 1px solid #000000; }
+a:active img 
+{ border: 1px solid #000000; }
+a:hover img
+{ border: 1px solid #cc0000; }
+
+#biography .biography, #resume .resume, #photos .photos, #voice .voice, #aanda .aanda, #contact .contact
+{
+color:#CC0000;
+}
+
+body
+{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  background: #ffffff;
+  font-family: tahoma, arial;
+  color: #000000;
+  font-size: 12px;
+}
+
+#content h2 { margin: 0 0 .5em 0; }
